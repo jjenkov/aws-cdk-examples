@@ -1,0 +1,13 @@
+cdk bootstrap
+
+cdk init sample-app --language=java
+
+cdk synth
+
+cdk deploy
+
+cdk diff
+
+cdk destroy
+
+
