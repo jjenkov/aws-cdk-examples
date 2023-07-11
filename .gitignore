@@ -1,2 +1,10 @@
 .idea/
+*.iml
 
+s3-bucket/cdk-java/target/
+
+sns/cdk-java/target/
+
+sqs/cdk-java/target/
+
+vpc/cdk-java/target

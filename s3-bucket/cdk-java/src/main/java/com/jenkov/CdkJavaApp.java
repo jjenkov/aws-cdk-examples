@@ -41,7 +41,7 @@ public class CdkJavaApp {
 
         // For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html
 
-        new CdkJavaStack(app, "CdkJavaStack", stackProps);
+        new CdkJavaStack(app, "CdkS3Stack", stackProps);
 
         app.synth();
     }

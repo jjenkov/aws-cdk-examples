@@ -6,7 +6,7 @@ public final class CdkJavaApp {
     public static void main(final String[] args) {
         App app = new App();
 
-        new CdkJavaStack(app, "CdkVPCStack");
+        new CdkJavaStack(app, "CdkSQSStack");
 
         app.synth();
     }
